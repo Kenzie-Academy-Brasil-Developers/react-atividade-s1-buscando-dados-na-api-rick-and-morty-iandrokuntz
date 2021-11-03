@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Card{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 17%;
+    margin: 10px;
+}
+.Alive{
+    border: 7px solid green;
+    background-color: green;
+}
+.Dead{
+    border: 7px solid red;
+    background-color: red;
+}
+.unknown{
+    border: 7px solid gray;
+    background-color: gray;
+}
